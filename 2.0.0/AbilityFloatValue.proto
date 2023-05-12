@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-
-message AbilityFloatValue {
-	float value = 1;
-}

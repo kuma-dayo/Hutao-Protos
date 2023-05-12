@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-
-message WidgetThunderBirdFeatherInfo {
-	repeated uint32 entity_id_list = 1;
-}

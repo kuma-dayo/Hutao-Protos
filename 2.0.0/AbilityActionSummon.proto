@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-import "Vector.proto";
-
-message AbilityActionSummon {
-	Vector pos = 1;
-	Vector rot = 2;
-}

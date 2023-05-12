@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-
-message AbilityMetaModifierDurabilityChange {
-	float reduce_durability = 1;
-	float remain_durability = 2;
-}

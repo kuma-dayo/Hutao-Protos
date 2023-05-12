@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-import "EquipParam.proto";
-
-message EquipParamList {
-	repeated EquipParam item_list = 1;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-
-message ChessCardInfo {
-	uint32 card_id = 1;
-	uint32 effect_stack = 2;
-}

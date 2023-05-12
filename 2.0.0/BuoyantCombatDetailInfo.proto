@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-import "BuoyantCombatDailyInfo.proto";
-
-message BuoyantCombatDetailInfo {
-	repeated BuoyantCombatDailyInfo daily_info_list = 1;
-}

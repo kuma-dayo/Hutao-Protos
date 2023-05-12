@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-
-message EchoShellInfo {
-	uint32 shell_id = 1;
-}

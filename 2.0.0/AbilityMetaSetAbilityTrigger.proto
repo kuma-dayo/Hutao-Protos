@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-
-message AbilityMetaSetAbilityTrigger {
-	uint32 trigger_ability_entity_id = 1;
-}

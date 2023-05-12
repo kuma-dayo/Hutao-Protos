@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-
-message FeatureBlockInfo {
-	uint32 feature_type = 1;
-	uint32 end_time = 2;
-}

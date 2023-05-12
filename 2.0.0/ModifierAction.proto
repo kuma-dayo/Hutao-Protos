@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-enum ModifierAction {
-	ADDED = 0;
-	REMOVED = 1;
-}

@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-
-message HomeMarkPointSuiteData {
-	uint32 suite_id = 1;
-}

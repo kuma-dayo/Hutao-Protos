@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-
-message TaskVar {
-	uint32 key = 1;
-	repeated int32 value_list = 2;
-}

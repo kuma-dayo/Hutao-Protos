@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-import "CustomCommonNodeInfo.proto";
-
-message HomeCustomFurnitureInfo {
-	uint32 guid = 1;
-	repeated CustomCommonNodeInfo sub_furniture_list = 2;
-}

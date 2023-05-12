@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-import "VectorPlane.proto";
-
-message PolygonRegionSize {
-	repeated VectorPlane point_list = 1;
-	float height = 2;
-}

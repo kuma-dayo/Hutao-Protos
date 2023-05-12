@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-
-message AbilityActionSetRandomOverrideMapValue {
-	float random_value = 1;
-}

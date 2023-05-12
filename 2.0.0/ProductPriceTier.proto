@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-
-message ProductPriceTier {
-	string product_id = 1;
-	string price_tier = 2;
-}

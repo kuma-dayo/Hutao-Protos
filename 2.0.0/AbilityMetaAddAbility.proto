@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-import "AbilityAppliedAbility.proto";
-
-message AbilityMetaAddAbility {
-	AbilityAppliedAbility ability = 1;
-}
