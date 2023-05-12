@@ -6,10 +6,10 @@ import "Vector.proto";
 
 // Name: ILEIPGLHFAP
 message HomeLimitedShopInfo {
-    uint32 nextGuestOpenTime = 12;
-    uint32 nextOpenTime = 11;
+    uint32 CLCPIJBAOEA = 12;
+    uint32 PGENOLMDFEM = 11;
     Vector djinn_pos = 1; //CKJKPEEKOGG
-    uint32 nextCloseTime = 6;
+    uint32 NIDABDPMHHF = 6;
     uint32 uid = 14;
     Vector djinn_rot = 9; //GMPJFCODOLK
 }

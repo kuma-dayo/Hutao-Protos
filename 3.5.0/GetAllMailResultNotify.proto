@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "layla.sleep.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 import "MailData.proto";
 
@@ -8,10 +8,10 @@ import "MailData.proto";
 // CmdId: 1429
 message GetAllMailResultNotify {
     int32 retcode = 6;
-    uint32 total_page_count = 1;
+    uint32 page_index = 1; // FCGFGPDOKOH
     repeated MailData mail_list = 10;
     string transaction = 5;
     bool is_collected = 8;
-    uint32 page_index = 13;
+    uint32 total_page_count = 13; //GKAOFKGNGGO
 }
 

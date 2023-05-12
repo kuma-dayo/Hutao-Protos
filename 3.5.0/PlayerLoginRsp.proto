@@ -14,7 +14,7 @@ message PlayerLoginRsp {
     bool is_sc_open = 1683;
     repeated FeatureBlockInfo feature_block_info_list = 983;
     bool KMOMLBCPPBA = 35;
-    bytes playerData = 1712;
+    bytes HGDJOGDJFDJ = 1712;
     bool is_data_need_relogin = 1013;
     ResVersionConfig next_res_version_config = 109;
     string client_md5 = 451;
@@ -40,7 +40,7 @@ message PlayerLoginRsp {
     bool is_transfer = 67;
     ResVersionConfig res_version_config = 196;
     map<uint32, BlockInfo> block_info_map = 336;
-    bytes scInfo = 3;
+    bytes JDGOBICDINB = 3;
     int32 ability_hash_code = 15;
     bool FBCLODGFABC = 9;
     string client_version_suffix = 165;

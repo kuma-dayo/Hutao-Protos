@@ -7,7 +7,7 @@ option java_package = "emu.grasscutter.net.proto";
 // CmdId: 649
 message ResinChangeNotify {
     uint32 cur_value = 14;
-    uint32 curBuyCount = 13;
-    uint32 nextAddTimestamp = 12;
+    uint32 KDJDKFKHOEN = 13;
+    uint32 NJLHPIKCNOP = 12;
 }
 

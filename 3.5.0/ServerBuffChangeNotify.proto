@@ -9,8 +9,8 @@ import "ServerBuff.proto";
 message ServerBuffChangeNotify {
     // Name: MMHNGODLMFF
     enum ServerBuffChangeType {
-    	SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;
-		SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;
+        ADD_SERVER_BUFF = 0;
+        DEL_SERVER_BUFF = 1;
     }
 
     ServerBuffChangeType server_buff_change_type = 8;

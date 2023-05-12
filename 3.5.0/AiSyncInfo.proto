@@ -8,4 +8,3 @@ message AiSyncInfo {
     bool is_self_killing = 6;
     bool has_path_to_target = 8;
 }
-

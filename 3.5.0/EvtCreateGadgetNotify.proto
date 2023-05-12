@@ -9,7 +9,7 @@ import "Vector.proto";
 // CmdId: 314
 message EvtCreateGadgetNotify {
     bool FGMFGIKBNPJ = 7;
-    bool isPeerIdFromPlayer = 14;
+    bool ILAPAEOJDPE = 14;
     uint64 guid = 15;
     Vector InitPos = 5; // FFLCDJCOGIM
     ForwardType forward_type = 3;
@@ -17,7 +17,7 @@ message EvtCreateGadgetNotify {
     uint32 entity_id = 6;
     uint32 JKHNMNELMJL = 9;
     uint32 owner_entity_id = 10;
-    bool is_async_load = 1128;
+    bool KEDBNJGFGOI = 1128;
     uint32 room_id = 11;
     uint32 camp_id = 8;
     uint32 config_id = 2;
@@ -25,7 +25,7 @@ message EvtCreateGadgetNotify {
     repeated uint32 target_lock_point_index_list = 582;
     repeated uint32 target_entity_id_list = 1945;
     uint32 target_entity_id = 12;
-    bool Unk3300_EJNBIGLGMII = 1628;
+    bool is_peer_id_from_player = 1628;
     Vector InitEulerAngles = 13; // GPKIAACNNCF
 }
 

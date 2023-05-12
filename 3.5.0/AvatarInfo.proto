@@ -7,6 +7,7 @@ import "AvatarExcelInfo.proto";
 import "AvatarExpeditionState.proto";
 import "AvatarFetterInfo.proto";
 import "AvatarSkillInfo.proto";
+import "GKIJDMOCNDH.proto";
 import "PropValue.proto";
 import "TrialAvatarInfo.proto";
 
@@ -38,5 +39,6 @@ message AvatarInfo {
     uint32 costume_id = 25;
     AvatarExcelInfo excel_info = 26;
     uint32 anim_hash = 27;
+    GKIJDMOCNDH FPDEJLIHLGJ = 28;
 }
 

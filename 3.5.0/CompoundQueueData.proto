@@ -5,9 +5,9 @@ option java_package = "emu.grasscutter.net.proto";
 
 // Name: HKALLDBLCCJ
 message CompoundQueueData {
-    uint32 outputTime = 15;
-    uint32 waitCount = 5;
-    uint32 outputCount = 11;
+    uint32 OKEOKOHAJBL = 15;
+    uint32 OBDIHDNMJJI = 5;
+    uint32 EMJEOIBIOIG = 11;
     uint32 compound_id = 14;
 }
 

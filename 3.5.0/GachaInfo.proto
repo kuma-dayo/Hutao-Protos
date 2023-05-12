@@ -5,6 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "GachaUpInfo.proto";
 
 // Name: LIBILADMDKG
+// Name: LIBILADMDKG
 message GachaInfo {
     bool is_new_wish = 1693;
     uint32 gachaTimesLimit = 4; // FLDFHFNHNFC

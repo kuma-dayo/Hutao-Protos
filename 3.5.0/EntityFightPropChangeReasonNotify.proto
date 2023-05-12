@@ -2,8 +2,8 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-import "ChangeHpReason.proto";
 import "ChangeEnergyReason.proto";
+import "ChangeHpReason.proto";
 import "PropChangeReason.proto";
 
 // Name: CGLFHNCCBKJ

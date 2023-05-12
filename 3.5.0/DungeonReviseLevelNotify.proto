@@ -1,13 +1,13 @@
 syntax = "proto3";
 
-option java_package = "layla.sleep.proto";
+option java_package = "emu.grasscutter.net.proto";
 
 
 // Name: LPLPFPBLPIJ
 // CmdId: 901
 message DungeonReviseLevelNotify {
     uint32 dungeon_id = 15;
-    uint32 OONLIAFCPDN = 3;
-    uint32 AMIKKOIOAPN = 7;
+    uint32 sceneLevel  = 3; //OONLIAFCPDN
+    uint32 revise_level = 7; //AMIKKOIOAPN
 }
 

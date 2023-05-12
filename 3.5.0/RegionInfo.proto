@@ -4,7 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ResVersionConfig.proto";
 
-// Name: GFALMACJGIH
 message RegionInfo {
     string gateserver_ip = 1;
     uint32 gateserver_port = 2;

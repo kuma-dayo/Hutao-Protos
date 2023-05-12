@@ -9,10 +9,10 @@ import "MapMarkPoint.proto";
 message MarkMapReq {
     // Name: LHHMCBIINHG
     enum Operation {
-    	OPERATION_ADD = 0;
-    	OPERATION_MOD = 1;
-    	OPERATION_DEL = 2;
-    	OPERATION_GET = 3;
+        ADD = 0;
+        MOD = 1;
+        DEL = 2;
+        GET = 3;
     }
 
     MapMarkPoint old = 9;

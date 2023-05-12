@@ -7,10 +7,10 @@ import "WeeklyBossResinDiscountInfo.proto";
 
 // Name: BIMILKAGLEC
 message InvestigationMonster {
-    // Name: HGJIJCEPLEE > LockState
+    // Name: HGJIJCEPLEE
     enum LockState {
-     LOCK_STATE_NONE = 0;
-     LOCK_STATE_QUEST = 1;
+        LOCK_NONE = 0;
+        LOCK_QUEST = 1;
     }
 
     uint32 max_boss_chest_num = 13; //HFEFHDCOMLB

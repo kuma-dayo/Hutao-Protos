@@ -16,7 +16,7 @@ message QueryCurrRegionHttpRsp {
     bytes client_region_custom_config_encrypted= 13;
     string HHDIBBJDLAN = 14;
     oneof detail {
-        ForceUpdateInfo force_update = 4;
+        ForceUpdateInfo force_udpate = 4;
         StopServerInfo stop_server = 5;
     }
 }
