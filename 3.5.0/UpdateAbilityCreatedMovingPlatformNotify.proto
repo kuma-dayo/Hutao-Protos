@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "OpType.proto";
+
+// Name: KNEOLPEIPID
+// CmdId: 829
+message UpdateAbilityCreatedMovingPlatformNotify {
+    // Name: IPLKGKOHDOL > OpType
+    OpType op_type = 8;
+    uint32 entity_id = 7;
+}

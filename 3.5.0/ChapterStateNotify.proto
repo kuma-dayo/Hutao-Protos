@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ChapterState.proto";
+
+// Name: EGGHDNJDFIM
+// CmdId: 427
+message ChapterStateNotify {
+    // Name: POAIPEHKEHE > NeedPlayerLevel
+    message NeedPlayerLevel {
+        bool is_limit = 12;
+        uint32 configNeedPlayerLevel = 11;
+    }
+
+    // Name: OKNHDJOIJFI > NeedBeginTime
+    message NeedBeginTime {
+        bool is_limit = 10;
+        uint32 configNeedBeginTime = 3;
+    }
+
+    NeedBeginTime needBeginTime = 14;
+    uint32 chapter_id = 7;
+    ChapterState chapter_state = 10;
+    NeedPlayerLevel needPlayerLevel = 8;
+}

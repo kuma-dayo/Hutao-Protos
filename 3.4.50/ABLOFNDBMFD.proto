@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeBlueprintBriefMuipData.proto";
+
+message ABLOFNDBMFD {
+	repeated HomeBlueprintBriefMuipData briefList = 1;
+	repeated string mohcaffojgh = 2;
+}

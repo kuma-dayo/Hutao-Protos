@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AbilityMetaTriggerElementReaction {
+	int32 hitIndex = 5;
+	uint32 elementReactionType = 6;
+	uint32 elementSourceType = 11;
+	uint32 triggerEntityId = 10;
+	uint32 elementReactorType = 15;
+}

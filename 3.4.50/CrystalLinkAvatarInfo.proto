@@ -1,0 +1,6 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+message CrystalLinkAvatarInfo {
+	bool isTrial = 9;
+	uint64 avatarId = 7;
+}

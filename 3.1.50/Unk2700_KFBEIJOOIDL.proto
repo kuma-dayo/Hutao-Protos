@@ -1,0 +1,65 @@
+// Grasscutter - A server software reimplementation for a certain anime game.
+// Copyright (C) 2022  Grasscutter Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as published
+// by the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+import "Unk2700_GJIFFCDPGDH.proto";
+import "Unk2700_HLEFFFJHGCA.proto";
+import "Unk2700_OANICLANMDM.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message Unk2700_KFBEIJOOIDL {
+	string name = 1;
+	int32 Unk2700_ADGMBGMODIC = 3;
+	Unk2700_HLEFFFJHGCA Unk2700_MFKJDINEHMB = 4;
+	Unk2700_GJIFFCDPGDH type = 5;
+	string Unk2700_EAEMLEHIPJI = 6;
+	string Unk2700_PMFHEIDFMJM = 2;
+	string Unk2700_OMLNJONAAND = 7;
+	int32 Unk2700_ODHCAIAGJCJ = 9;
+	string Unk2700_BLDLKLLHHGC = 10;
+	Unk2700_OANICLANMDM Unk2700_OEKCNFIOGAA = 8;
+
+	enum Unk2700_GJIFFCDPGDH {
+		Unk2700_GJIFFCDPGDH_NONE = 0;
+		Unk2700_GJIFFCDPGDH_Unk2700_DFAFOPCNJLF = 1;
+		Unk2700_GJIFFCDPGDH_FLOAT = 2;
+		Unk2700_GJIFFCDPGDH_Unk2700_IHKHHNOAHBI = 3;
+		Unk2700_GJIFFCDPGDH_Unk2700_ALJLAHOKMEA = 4;
+		Unk2700_GJIFFCDPGDH_Unk2700_IGMLOMFNOMA = 5;
+		Unk2700_GJIFFCDPGDH_Unk2700_GJHDGPBINEJ = 6;
+		Unk2700_GJIFFCDPGDH_Unk2700_AHAMDJPDFDP = 7;
+		Unk2700_GJIFFCDPGDH_BOOL = 8;
+		Unk2700_GJIFFCDPGDH_STRING = 9;
+		Unk2700_GJIFFCDPGDH_Unk2700_LKBKANIJALC = 10;
+		Unk2700_GJIFFCDPGDH_Unk2700_ODEEOPMLOGO = 11;
+		Unk2700_GJIFFCDPGDH_Unk2700_FIDIMOOEONJ = 12;
+		Unk2700_GJIFFCDPGDH_Unk2700_PJLIPFIMKMM = 13;
+		Unk2700_GJIFFCDPGDH_Unk2700_PNPDNNPAJPJ = 14;
+		Unk2700_GJIFFCDPGDH_Unk2700_OFECAGCGHFI = 15;
+		Unk2700_GJIFFCDPGDH_Unk2700_ACGLGADBBBE = 16;
+		Unk2700_GJIFFCDPGDH_Unk2700_PDFHELPAJGH = 17;
+		Unk2700_GJIFFCDPGDH_Unk2700_IAALAICFPJE = 18;
+	}
+
+	enum Unk2700_HLEFFFJHGCA {
+		Unk2700_HLEFFFJHGCA_NONE = 0;
+		Unk2700_HLEFFFJHGCA_Unk2700_GNLNPBHMPIJ = 1;
+		Unk2700_HLEFFFJHGCA_Unk2700_JPNLJCKFBCK = 2;
+		Unk2700_HLEFFFJHGCA_Unk2700_JLLDDGCJBFA = 3;
+	}
+}

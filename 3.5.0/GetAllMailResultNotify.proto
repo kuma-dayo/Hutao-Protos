@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "layla.sleep.proto";
+
+import "MailData.proto";
+
+// Name: ILFMLLOCKFB
+// CmdId: 1429
+message GetAllMailResultNotify {
+    int32 retcode = 6;
+    uint32 total_page_count = 1;
+    repeated MailData mail_list = 10;
+    string transaction = 5;
+    bool is_collected = 8;
+    uint32 page_index = 13;
+}
+

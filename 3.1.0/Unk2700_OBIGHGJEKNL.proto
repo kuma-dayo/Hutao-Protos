@@ -1,0 +1,41 @@
+// Grasscutter - A server software reimplementation for a certain anime game.
+// Copyright (C) 2022  Grasscutter Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as published
+// by the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+import "Unk2700_AAMLKKFMNNK.proto";
+import "Unk2700_CCPBOPKIOAD.proto";
+import "Unk2700_CDAAKDNKCCF.proto";
+import "Unk2700_FLDKDJCDOLJ.proto";
+import "Unk2700_IGOFBINEGEE.proto";
+import "Unk2700_KFBEIJOOIDL.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message Unk2700_OBIGHGJEKNL {
+	string name = 1;
+	string Unk2700_APDAIHKBJMF = 2;
+	repeated string Unk2700_BCJPPFFHOIF = 3;
+	repeated int32 Unk2700_GEMMNPOJLHA = 10;
+	repeated int32 Unk2700_NNAGGMDJIIO = 11;
+	repeated Unk2700_IGOFBINEGEE Unk2700_FFLLKNBOICL = 4;
+	repeated Unk2700_CDAAKDNKCCF Unk2700_GPNKEAKMNBI = 5;
+	repeated Unk2700_AAMLKKFMNNK Unk2700_GKBBPMHCCON = 6;
+	repeated Unk2700_KFBEIJOOIDL Unk2700_CJDGECFNKED = 7;
+	Unk2700_FLDKDJCDOLJ Unk2700_OEKCNFIOGAA = 8;
+	Unk2700_CCPBOPKIOAD Unk2700_NLNPFHEAECI = 9;
+	string Unk2700_MHBNHOMBJJA = 12;
+}

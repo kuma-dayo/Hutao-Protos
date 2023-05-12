@@ -1,0 +1,5 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+message StatueGadgetInfo {
+	repeated uint32 nkbgahefmbn = 1;
+}

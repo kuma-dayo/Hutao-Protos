@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PathStatusType.proto";
+import "Vector.proto";
+
+// Name: FKMNFJNKLOG
+// CmdId: 2375
+message QueryPathRsp {
+    // Name: OJMJFOELEOF > PathStatusType
+
+    repeated Vector corners = 2;
+    PathStatusType query_status = 12;
+    int32 query_id = 7;
+    int32 retcode = 5;
+}
+
