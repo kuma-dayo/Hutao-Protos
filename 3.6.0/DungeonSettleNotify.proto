@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "catgirl.kirara.moe";
+option java_package = "emu.grasscutter.net.proto";
 
 import "ChannellerSlabLoopDungeonResultInfo.proto";
 import "CrystalLinkDungeonSettleInfo.proto";
@@ -23,7 +23,7 @@ import "WindFieldDungeonSettleInfo.proto";
 // Name: ACFCCAJPEOP
 message DungeonSettleNotify {
     uint32 use_time = 5;
-    uint32 CHNDMCHIOON = 9;
+    uint32 result = 9; // CHNDMCHIOON
     map<uint32, ParamList> settle_show = 14;
     map<uint32, StrengthenPointData> strengthen_point_data_map = 8;
     uint32 close_time = 13;

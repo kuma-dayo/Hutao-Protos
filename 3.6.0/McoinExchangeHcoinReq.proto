@@ -1,12 +1,12 @@
 syntax = "proto3";
 
-option java_package = "catgirl.kirara.moe";
+option java_package = "emu.grasscutter.net.proto";
 
 
 // CmdId: 637
 // Name: GPEJPBJAFHM
 message McoinExchangeHcoinReq {
-    uint32 PBPMGONFBPF = 12;
-    uint32 MLKHDJPCJLG = 13;
+    uint32 mcoin_cost = 12; // PBPMGONFBPF
+    uint32 hcoin = 13; // MLKHDJPCJLG
 }
 

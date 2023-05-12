@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "catgirl.kirara.moe";
+option java_package = "emu.grasscutter.net.proto";
 
 import "HomeAnimalData.proto";
 import "HomeBlockDotPattern.proto";
@@ -25,7 +25,7 @@ message HomeBlockArrangementInfo {
     repeated HomeFurnitureCustomSuiteData furniture_custom_suite_list = 12;
     repeated HomeNpcData deploy_npc_list = 9;
     uint32 block_id = 10;
-    repeated HomeFurnitureData NOLOJAIDCGA = 13;
-    repeated HomeFurnitureData CIKCBEBJEIK = 8;
+    repeated HomeFurnitureData persistentFurnitureList = 13; // NOLOJAIDCGA
+    repeated HomeFurnitureData deployFurniureList = 8; // CIKCBEBJEIK
 }
 

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "catgirl.kirara.moe";
+option java_package = "emu.grasscutter.net.proto";
 
 import "AsterLargeDetailInfo.proto";
 import "AsterLittleDetailInfo.proto";
@@ -16,7 +16,7 @@ message AsterActivityDetailInfo {
     bool is_special_reward_taken = 8;
     AsterLargeDetailInfo aster_large = 3;
     bool is_content_closed = 14;
-    uint32 MFJDILDLMGP = 11;
-    uint32 HNJDOJKGDOP = 5;
+    uint32 aster_token = 11; // MFJDILDLMGP
+    uint32 aster_credit = 5; // HNJDOJKGDOP
 }
 

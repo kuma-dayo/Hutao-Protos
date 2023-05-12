@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "catgirl.kirara.moe";
+option java_package = "emu.grasscutter.net.proto";
 
 import "ActivityPushTipsData.proto";
 import "ActivityWatcherInfo.proto";
@@ -86,12 +86,12 @@ message ActivityInfo {
     uint32 activity_id = 1;
     repeated ActivityPushTipsData activity_push_tips_data_list = 1986;
     bool DCENNBKGOAH = 1227;
-    repeated uint32 CGFKLALMOLH = 5;
+    repeated uint32 meet_cond_list = 5; // CGFKLALMOLH
     uint32 schedule_id = 2;
     bool DNKBDEJAOMC = 6;
     bool MPCDIKMJOAC = 2041;
     uint32 cur_score = 882;
-    uint32 OIPEAKGOPDE = 11;
+    uint32 activity_type = 11;
     bool GODELKHIPDE = 3;
     bool DLNNGPNHBFB = 1789;
     uint32 first_day_start_time = 617;
