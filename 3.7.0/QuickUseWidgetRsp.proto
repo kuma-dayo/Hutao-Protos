@@ -15,16 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "LPLOENMNIOC.proto";
-import "NLEMHBCLPLJ.proto";
+import "OneoffGatherPointDetectorData.proto";
+import "ClientCollectorData.proto";
 import "GECIONGCJJF.proto";
 // CmdId: 4253
 message QuickUseWidgetRsp {
 	uint32 material_id = 9;
 	int32 retcode = 5;
 	oneof param {
-		LPLOENMNIOC OMHCCEGDIBI = 4;
-		NLEMHBCLPLJ LICBBNPMKBD = 11;
+		OneoffGatherPointDetectorData OMHCCEGDIBI = 4;
+		ClientCollectorData LICBBNPMKBD = 11;
 		GECIONGCJJF ALLAIDPLMFC = 150503;
 	}
 }

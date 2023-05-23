@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 import "Vector.proto";
-message LPLOENMNIOC {
+message OneoffGatherPointDetectorData {
 	uint32 config_id = 11;
-	bool NOMBNOKOKMN = 9;
+	bool is_all_collected = 9;
 	uint32 group_id = 10;
 	bool is_hint_valid = 4;
 	Vector hint_center_pos = 3;
-	uint32 MELJODAFPCD = 8;
+	uint32 hint_radius = 8;
 	uint32 material_id = 13;
 }

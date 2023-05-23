@@ -18,6 +18,6 @@ syntax = "proto3";
 import "WidgetCoolDownData.proto";
 // CmdId: 4298
 message WidgetCoolDownNotify {
-	repeated WidgetCoolDownData OAHKCCANPOJ = 5;
+	repeated WidgetCoolDownData weather_wizard_data = 5;
 	repeated WidgetCoolDownData GIPOCKCPLMH = 7;
 }
