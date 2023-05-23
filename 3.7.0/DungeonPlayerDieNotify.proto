@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "StrengthenPointData.proto";
 import "PlayerDieType.proto";
 // CmdId: 984
+// Obf: NBJMJGEPMGD
 message DungeonPlayerDieNotify {
 	uint32 revive_count = 7;
 	uint32 dungeon_id = 14;
@@ -26,7 +28,7 @@ message DungeonPlayerDieNotify {
 	uint32 wait_time = 8;
 	uint32 murderer_entity_id = 15;
 	oneof entity {
-		uint32 HKLICMFBIKK = 5;
-		uint32 FEMFCIALFPJ = 1;
+		uint32 monster_id = 5;
+		uint32 gadget_id = 1;
 	}
 }

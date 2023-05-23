@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GCGMessage.proto";
-import "GCGActionType.proto";
+import "PEONGPLDDGK.proto";
+// Obf: MLKPIINGDEN
 message GCGMessagePack {
-	uint32 CDFFGLCKBDF = 15;
+	uint32 controller_id = 15;
 	repeated GCGMessage msg_list = 5;
-	GCGActionType action_type = 8;
-	uint32 BKEFNLEKDAB = 7;
+	PEONGPLDDGK action_type = 8;
+	uint32 IGCDCJEJMOF = 7;
 }

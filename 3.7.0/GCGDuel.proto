@@ -15,35 +15,37 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "FKDHOACPGNF.proto";
-import "HDJKAINGGJN.proto";
-import "JJCAJPELBLO.proto";
-import "DBPENCHBFNA.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "GCGCostReviseInfo.proto";
+import "GCGControllerShowInfo.proto";
+import "GCGPhase.proto";
+import "GCGCard.proto";
 import "GCGMessagePack.proto";
-import "MCEHDANFECI.proto";
-import "CEGEHEEFNLJ.proto";
+import "GCGDuelChallenge.proto";
+import "GCGPlayerField.proto";
 import "LABBALOFHKB.proto";
 import "GCEGEJJDGFK.proto";
-import "FJBFPLFPINM.proto";
+import "GCGPVEIntention.proto";
+// Obf: FNAMGMOEEKI
 message GCGDuel {
-	uint32 JCMODFEGPAL = 1;
+	uint32 IGBDLCDGMGB = 1;
 	uint32 server_seq = 4;
-	FKDHOACPGNF FNIMCADIDMH = 13;
-	uint32 IIHDIPEKHDD = 12;
-	repeated HDJKAINGGJN JFKNBCGPGBO = 5;
-	uint32 JNKPIIOENDF = 10;
+	GCGCostReviseInfo cost_revise = 13;
+	uint32 OPGBGHPHELB = 12;
+	repeated GCGControllerShowInfo show_info_list = 5;
+	uint32 JGNDHJOKELK = 10;
 	uint32 round = 2;
-	JJCAJPELBLO GHNPJGNABDO = 9;
-	repeated DBPENCHBFNA KBCMGFPFIHD = 1602;
-	repeated GCGMessagePack EONBJNHNFCP = 406;
-	repeated MCEHDANFECI IIFJMJPNPHE = 951;
-	repeated CEGEHEEFNLJ field_list = 15;
-	LABBALOFHKB EINNHJPNMNK = 3;
-	uint32 CDFFGLCKBDF = 8;
-	repeated CEGEHEEFNLJ OOHAJGPPGJJ = 39;
-	repeated uint32 JEKDJOAKEPH = 11;
-	repeated DBPENCHBFNA card_list = 7;
-	repeated GCEGEJJDGFK APGIAJOOBLC = 323;
-	repeated uint32 IHDNFKPDIEE = 487;
-	repeated FJBFPLFPINM PPGBMONEHPF = 6;
+	GCGPhase phase = 9;
+	repeated GCGCard LDNDHKJNFKJ = 1602;
+	repeated GCGMessagePack history_msg_pack_list = 406;
+	repeated GCGDuelChallenge challenge_list = 951;
+	repeated GCGPlayerField field_list = 15;
+	LABBALOFHKB LNPHMHEEEOL = 3;
+	uint32 controller_id = 8;
+	repeated GCGPlayerField LJMAMCMEJLP = 39;
+	repeated uint32 card_id_list = 11;
+	repeated GCGCard card_list = 7;
+	repeated GCEGEJJDGFK NIHEEDJFPFH = 323;
+	repeated uint32 CGOPKBDOOFH = 487;
+	repeated GCGPVEIntention intetion_list = 6;
 }

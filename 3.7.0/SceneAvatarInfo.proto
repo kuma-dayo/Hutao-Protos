@@ -15,17 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SceneWeaponInfo.proto";
 import "SceneReliquaryInfo.proto";
 import "ServerBuff.proto";
 import "CurVehicleInfo.proto";
 import "AvatarExcelInfo.proto";
+// Obf: IPPGFCBJAGI
 message SceneAvatarInfo {
 	uint32 uid = 1;
 	uint32 avatar_id = 2;
 	uint64 guid = 3;
 	uint32 peer_id = 4;
-	repeated uint32 OFBNJGPMILG = 5;
+	repeated uint32 equip_id_list = 5;
 	uint32 skill_depot_id = 6;
 	repeated uint32 talent_id_list = 7;
 	SceneWeaponInfo weapon = 8;
