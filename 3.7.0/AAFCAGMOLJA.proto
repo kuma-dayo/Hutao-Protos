@@ -18,5 +18,5 @@ syntax = "proto3";
 // CmdId: 24948
 message AAFCAGMOLJA {
 	uint32 config_id = 8;
-	bytes DEMDAKOLMKB = 7;
+	bytes payload = 7;
 }

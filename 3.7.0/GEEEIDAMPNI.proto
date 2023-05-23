@@ -18,5 +18,5 @@ syntax = "proto3";
 // CmdId: 23432
 message GEEEIDAMPNI {
 	uint32 config_id = 4;
-	bytes DEMDAKOLMKB = 2;
+	bytes payload = 2;
 }
