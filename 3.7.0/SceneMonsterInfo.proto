@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 import "SceneWeaponInfo.proto";
-import "CNKCBENCCOC.proto";
+import "MonsterBornType.proto";
 import "MonsterRoute.proto";
-import "EALFECBKMNC.proto";
-import "EMABGGFKFDB.proto";
+import "SceneFishInfo.proto";
+import "FishtankFishInfo.proto";
 message SceneMonsterInfo {
 	uint32 monster_id = 1;
 	uint32 group_id = 2;
 	uint32 config_id = 3;
-	repeated SceneWeaponInfo LEOFMNGPDHB = 4;
+	repeated SceneWeaponInfo weapon_list = 4;
 	uint32 authority_peer_id = 5;
 	repeated uint32 affix_list = 6;
 	bool FLPMKACADDN = 7;
@@ -32,7 +32,7 @@ message SceneMonsterInfo {
 	uint32 MCFENAFAABJ = 9;
 	map<uint32, uint32> summon_tag_map = 10;
 	uint32 OOLFLLPOKFN = 11;
-	CNKCBENCCOC GHHPMONMIOL = 12;
+	MonsterBornType born_type = 12;
 	uint32 block_id = 13;
 	uint32 FPIEKINGGIP = 14;
 	uint32 BLDJBKPLAIE = 15;
@@ -44,8 +44,8 @@ message SceneMonsterInfo {
 	uint32 KLGHBOACKDA = 21;
 	bool DDLBEPMNCIF = 22;
 	uint32 FNGMAPECIPI = 23;
-	oneof NOMLMBCABIN {
-		EALFECBKMNC OBAPAAKHBJI = 50;
-		EMABGGFKFDB GGOACAMBCJI = 51;
+	oneof content {
+		SceneFishInfo fish_info = 50;
+		FishtankFishInfo fishtank_fish_info = 51;
 	}
 }

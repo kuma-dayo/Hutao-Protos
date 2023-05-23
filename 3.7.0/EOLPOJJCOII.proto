@@ -18,6 +18,6 @@ syntax = "proto3";
 import "MCEHDANFECI.proto";
 // CmdId: 7450
 message EOLPOJJCOII {
-	uint32 IOGLEBAAJML = 11;
+	uint32 server_seq = 11;
 	MCEHDANFECI ADFFGNNMCOF = 9;
 }

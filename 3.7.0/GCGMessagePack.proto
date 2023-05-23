@@ -15,8 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-enum CNKCBENCCOC {
-	CNKCBENCCOC_MonsterBornNone = 0;
-	CNKCBENCCOC_MonsterBornDefault = 1;
-	CNKCBENCCOC_MonsterBornRandom = 2;
+import "GCGMessage.proto";
+import "GCGActionType.proto";
+message GCGMessagePack {
+	uint32 CDFFGLCKBDF = 15;
+	repeated GCGMessage msg_list = 5;
+	GCGActionType action_type = 8;
+	uint32 BKEFNLEKDAB = 7;
 }

@@ -48,8 +48,8 @@ import "HEDOCLCABBL.proto";
 import "IFEMNNBPEKH.proto";
 import "LFJPKCJBNDP.proto";
 import "KICGELKNHHB.proto";
-message IKBFDMLBONN {
-	oneof LLMOKPFMFDL {
+message GCGMessage {
+	oneof message {
 		NMOMNMJEDFF DEFFAHEDFFP = 6;
 		HMLPNKMOBMO AEBACOLEEDD = 7;
 		NBPNCBJNDNC GNJCLDLIDGB = 4;

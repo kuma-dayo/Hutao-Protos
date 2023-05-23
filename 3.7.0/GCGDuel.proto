@@ -19,15 +19,15 @@ import "FKDHOACPGNF.proto";
 import "HDJKAINGGJN.proto";
 import "JJCAJPELBLO.proto";
 import "DBPENCHBFNA.proto";
-import "MLKPIINGDEN.proto";
+import "GCGMessagePack.proto";
 import "MCEHDANFECI.proto";
 import "CEGEHEEFNLJ.proto";
 import "LABBALOFHKB.proto";
 import "GCEGEJJDGFK.proto";
 import "FJBFPLFPINM.proto";
-message FNAMGMOEEKI {
+message GCGDuel {
 	uint32 JCMODFEGPAL = 1;
-	uint32 IOGLEBAAJML = 4;
+	uint32 server_seq = 4;
 	FKDHOACPGNF FNIMCADIDMH = 13;
 	uint32 IIHDIPEKHDD = 12;
 	repeated HDJKAINGGJN JFKNBCGPGBO = 5;
@@ -35,7 +35,7 @@ message FNAMGMOEEKI {
 	uint32 round = 2;
 	JJCAJPELBLO GHNPJGNABDO = 9;
 	repeated DBPENCHBFNA KBCMGFPFIHD = 1602;
-	repeated MLKPIINGDEN EONBJNHNFCP = 406;
+	repeated GCGMessagePack EONBJNHNFCP = 406;
 	repeated MCEHDANFECI IIFJMJPNPHE = 951;
 	repeated CEGEHEEFNLJ field_list = 15;
 	LABBALOFHKB EINNHJPNMNK = 3;

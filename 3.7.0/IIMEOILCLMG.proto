@@ -17,5 +17,5 @@
 syntax = "proto3";
 // CmdId: 7807
 message IIMEOILCLMG {
-	uint32 IOGLEBAAJML = 4;
+	uint32 server_seq = 4;
 }

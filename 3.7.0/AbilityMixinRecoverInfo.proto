@@ -24,7 +24,7 @@ message AbilityMixinRecoverInfo {
 	repeated MassivePropSyncInfo massive_prop_list = 6;
 	BreakoutSnapShot breakout_snap_shot = 7;
 	oneof source {
-		uint32 GPBKHCOAAGG = 1;
-		uint32 MILDDKOHGDL = 2;
+		uint32 instanced_ability_id = 1;
+		uint32 instanced_modifier_id = 2;
 	}
 }

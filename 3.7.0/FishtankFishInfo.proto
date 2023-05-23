@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message EMABGGFKFDB {
-	float EBMOOBKKNJI = 1;
-	float ICOFJKEKEIM = 2;
-	float BOGEINCFLCP = 3;
+message FishtankFishInfo {
+	float fish_distance_from_water = 1;
+	float fish_scale = 2;
+	float initial_rotation_y = 3;
 }
