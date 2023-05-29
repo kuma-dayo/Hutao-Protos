@@ -1,26 +1,34 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "MultistageSettleWatcherInfo.proto";
 
-message InBattleMechanicusSettleNotify {
-	//enum KDMLFKICFGF {
-	//	option allow_alias= true;
-	//	NONE = 0;
-	//	PEPPOHPHJOJ = 5369;
-	//	DCDNILFDFLB = 0;
-	//	NNBKOLMPOEA = 1;
-	//}
+option java_package = "org.sorapointa.proto";
 
-	repeated MultistageSettleWatcherInfo watcherList = 7;
-	bool isSuccess = 8;
-	uint32 Unk3300_NAMBBHMJJLN = 15;
-	uint32 Unk3300_HAEOPAOBBFE = 1;
-	uint32 playIndex = 12;
-	uint32 Unk3300_EKAIAPLNIPM = 13;
-	uint64 sceneTimeMs = 10;
-	uint32 groupId = 9;
+message InBattleMechanicusSettleNotify {
+  // CMD_ID = 5369
+
+  repeated MultistageSettleWatcherInfo watcher_list = 7;
+  bool is_success = 8;
+  uint32 real_token = 15;
+  uint32 total_token = 1;
+  uint32 play_index = 12;
+  uint32 difficulty_percentage = 13;
+  uint64 scene_time_ms = 10;
+  uint32 group_id = 9;
 }

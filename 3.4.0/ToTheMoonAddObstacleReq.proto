@@ -1,23 +1,30 @@
+// Sorapointa - A server software re-implementation for a certain anime game, and avoid sorapointa.
+// Copyright (C) 2023  Sorapointa Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 syntax = "proto3";
-
-option java_package = "emu.grasscutter.net.proto";
-
-
 
 import "ToTheMoonObstacleInfo.proto";
 
-message ToTheMoonAddObstacleReq {
-	//enum JNHMMGGPKOO {
-	//	option allow_alias= true;
-	//	NONE = 0;
-	//	PEPPOHPHJOJ = 6174;
-	//	DCDNILFDFLB = 0;
-	//	NNBKOLMPOEA = 1;
-	//	EAJIABGAOCI = 1;
-	//}
+option java_package = "org.sorapointa.proto";
 
-	ToTheMoonObstacleInfo obstacle = 6;
-	uint32 sceneId = 7;
-	int32 queryId = 5;
-	bool useEdge = 15;
+message ToTheMoonAddObstacleReq {
+  // CMD_ID = 6174
+
+  ToTheMoonObstacleInfo obstacle = 6;
+  uint32 scene_id = 7;
+  int32 query_id = 5;
+  bool use_edge = 15;
 }
