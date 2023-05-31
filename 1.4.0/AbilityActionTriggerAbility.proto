@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-
-message AbilityActionTriggerAbility {
-	uint32 other_id = 1;
-}

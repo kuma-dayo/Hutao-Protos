@@ -1,9 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-import "SceneSurfaceMaterial.proto";
-
-message CellInfo {
-	SceneSurfaceMaterial type = 1;
-	int32 y = 2;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-
-message MassiveWaterInfo {
-	int64 id = 1;
-}

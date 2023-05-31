@@ -1,9 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-import "Vector.proto";
-
-message AsterMidCampInfo {
-	uint32 camp_id = 1;
-	Vector pos = 2;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-
-message FindHilichurlDayContentInfo {
-	uint32 start_time = 1;
-}

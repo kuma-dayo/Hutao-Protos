@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-enum WidgetSlotOp {
-	ATTACH = 0;
-	DETACH = 1;
-}

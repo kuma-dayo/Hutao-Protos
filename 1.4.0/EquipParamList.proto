@@ -1,8 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-import "EquipParam.proto";
-
-message EquipParamList {
-	repeated EquipParam item_list = 1;
-}

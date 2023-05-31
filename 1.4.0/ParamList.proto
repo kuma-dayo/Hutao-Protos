@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-
-message ParamList {
-	repeated uint32 param_list_ = 1;
-}

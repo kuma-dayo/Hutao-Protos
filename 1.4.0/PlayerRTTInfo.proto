@@ -1,8 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-
-message PlayerRTTInfo {
-	uint32 uid = 1;
-	uint32 rtt = 2;
-}

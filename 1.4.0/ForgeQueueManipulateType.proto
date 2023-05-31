@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-enum ForgeQueueManipulateType {
-	RECEIVE_OUTPUT = 0;
-	STOP_FORGE = 1;
-}

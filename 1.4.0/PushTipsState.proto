@@ -1,9 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-enum PushTipsState {
-	NONE = 0;
-	START = 1;
-	READ = 2;
-	FINISH = 3;
-}

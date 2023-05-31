@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-enum FriendOnlineState {
-	FREIEND_DISCONNECT = 0;
-	FRIEND_ONLINE = 1;
-}

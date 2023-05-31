@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-
-message AbilityActionSetRandomOverrideMapValue {
-	float random_value = 1;
-}

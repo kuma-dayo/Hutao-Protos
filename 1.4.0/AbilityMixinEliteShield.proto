@@ -1,7 +1,0 @@
-syntax = "proto3";
-option csharp_namespace = "YSFreedom.Common.Protocol";
-
-
-message AbilityMixinEliteShield {
-	float sub_shield = 1;
-}
