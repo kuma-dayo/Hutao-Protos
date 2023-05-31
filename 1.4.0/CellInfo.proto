@@ -5,5 +5,5 @@ import "SceneSurfaceMaterial.proto";
 
 message CellInfo {
 	SceneSurfaceMaterial type = 1;
-	int32 Y = 2;
+	int32 y = 2;
 }
